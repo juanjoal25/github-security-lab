@@ -1,7 +1,7 @@
 
 const config = {
   appName: "Mi aplicación de prueba",
-  apiKey: "DEMO_SECRET_NO_REAL_12345"
+  apiKey: process.env.API_KEY
 };
 
 console.log("Aplicación iniciada");
